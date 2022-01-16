@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OSM Buildings</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="OSMBuildings.css">
+  <script src="OSMBuildings.js"></script>
+  <!-- turf.js -->
+  <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+</head>
+
+<body>
+<div id="map"></div>
+
+<div class="control tilt">
+  <button class="dec">&#8601;</button>
+  <button class="inc">&#8599;</button>
+</div>
+
+<div class="control rotation">
+  <button class="inc">&#8630;</button>
+  <button class="dec">&#8631;</button>
+</div>
+
+<div class="control zoom">
+  <button class="dec">-</button>
+  <button class="inc">+</button>
+</div>
+
+<!-- should be in Body tag -->
+<script src='myscript.js'></script>
+
+</body>
+</html>
